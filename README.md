@@ -1,4 +1,4 @@
-# Offers-on-the-marketplace
+# Binary classification: offers on the marketplace
 ## Overview
 ### About Samokat.Tech
 - We create IT for real-time retail.
