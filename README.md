@@ -29,21 +29,21 @@ To do this, each pair has a set of features and sets of vectors (picture and tex
 
 ## Dataset Description
 
-To solve the problem, we provide anonymized data on sellers’ product offers (offers) and products from the Megamarket marketplace (goods).
+To solve the problem, we provide anonymized data on sellers’ product offers (offers) and products from the "Megamarket" marketplace (goods).
 The data for each offer already contains the closest products from the assortment and indicates the main characteristics for this pair. It is only necessary to classify which of the pairs is a match and which is not.
 
 ### Files
 - train.csv - training dataset
 - test.csv - testing dataset
 ### Columns
-`offer_depersonalised` and `goods_depersonalised` - offer and product identifiers, respectively
-`sum_length` - total length of a pair of names and attributes in characters
-`attrs+title_score` - match probability from the rescoring model
-`offer_price` and `item_price` - the price of the offer and the product, respectively
-`goods_category_id` - product category
-`id` - identifier of the pair offer_depersonalised + $ + goods_depersonalised
-`target` (only in train.csv) - class label (0 - not a match, 1 - a match)
+- `offer_depersonalised` and `goods_depersonalised` - offer and product identifiers, respectively
+- `sum_length` - total length of a pair of names and attributes in characters
+- `attrs+title_score` - match probability from the rescoring model
+- `offer_price` and `item_price` - the price of the offer and the product, respectively
+- `goods_category_id` - product category
+- `id` - identifier of the pair offer_depersonalised + $ + goods_depersonalised
+- `target` (only in train.csv) - class label (0 - not a match, 1 - a match)
 
 ### Embeddings
-`goods_image_vectors` and `offer_image_vectors` - contain files with image vectors (embed_deperson.npy) and their identifiers (items_deperson.npy) for assortment products and offers, respectively. Objects in files are correlated 1 to 1
-`goods_title_vectors` and `offer_title_vectors` - contain files with vectors of titles+attributes (embed_deperson.npy) and their identifiers (items_deperson.npy) for assortment goods and offers, respectively. Objects in files are correlated 1 to 1
+- `goods_image_vectors` and `offer_image_vectors` - contain files with image vectors (embed_deperson.npy) and their identifiers (items_deperson.npy) for assortment products and offers, respectively. Objects in files are correlated 1 to 1
+- `goods_title_vectors` and `offer_title_vectors` - contain files with vectors of titles+attributes (embed_deperson.npy) and their identifiers (items_deperson.npy) for assortment goods and offers, respectively. Objects in files are correlated 1 to 1
