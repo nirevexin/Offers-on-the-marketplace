@@ -22,7 +22,7 @@ To do this, each pair has a set of features and sets of vectors (picture and tex
 - F-score is used as a solution quality metric.
 
 ## Deadlines
-- 01/25/2023 7:00 PM (Moscow time) - 02/08/2024 11:59 PM (Moscow time) - solution to the problem.
+- 01/25/2024 7:00 PM (Moscow time) - 02/08/2024 11:59 PM (Moscow time) - solution to the problem.
 - 02/11/2024 11:59 PM (Moscow time) - sending completed notebooks for evaluation.
-- 02/15/2024 — Online broadcast with summing up. 
+- 02/15/2024 - Online broadcast with summing up. 
 - 02/18/2024 and beyond - individual meetings of the matching and machine learning team with the five best participants in the competition.
