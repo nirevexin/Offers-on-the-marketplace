@@ -1,6 +1,6 @@
 # Binary classification: offers on the marketplace
 ## Overview
-### About Samokat.Tech
+### About [Samokat.Tech](https://samokat.tech)
 - We create IT for real-time retail.
 - Our goal is to ensure that any product gets into the hands of customers as quickly as possible in the physical world.
 - We are growing quickly - in 2020, our IT products helped deliver 1.6 million orders per month in 4 cities of Russia. Now in the first half of 2023 this is 92 million orders and a 90% increase in turnover compared to last year*.
