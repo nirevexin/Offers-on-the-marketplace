@@ -29,7 +29,7 @@ To do this, each pair has a set of features and sets of vectors (picture and tex
 
 ## Dataset Description
 
-To solve the problem, we provide anonymized data on sellers’ product offers (offers) and products from the "Megamarket" marketplace (goods).
+To solve the problem, we provide anonymized data on sellers’ product offers (offers) and products from the ["Megamarket"](https://megamarket.ru/) marketplace (goods).
 The data for each offer already contains the closest products from the assortment and indicates the main characteristics for this pair. It is only necessary to classify which of the pairs is a match and which is not.
 
 ### Files
