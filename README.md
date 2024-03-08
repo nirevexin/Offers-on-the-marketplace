@@ -49,5 +49,5 @@ During the project the following was carried out:
 - The image & text embeddings were represented as the distance among them
 - 20 features were created from the dimension reduction of the embeddings using PCA
 - Additional features were also created from the price difference between the offer and the goods.
-- Several ML models were developed and their predictions were stacked into a Bernoulli Naive Bayes meta-model to extract better probabilities. The final Meta-Model's F1 score is just slightly better than the - - - CatBoost model alone, which takes a lot less time to deploy.
+- Several ML models were developed and their predictions were stacked into a Bernoulli Naive Bayes meta-model to extract better probabilities. The final Meta-Model's F1 score is just slightly better than the CatBoost model alone, which takes a lot less time to deploy.
 - The CatBoost model alone is the most suitable model, due to the speed and scoring.
