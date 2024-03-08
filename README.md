@@ -44,7 +44,11 @@ The data for each offer already contains the closest products from the assortmen
 - `id` - identifier of the pair offer_depersonalised + $ + goods_depersonalised
 - `target` (only in train.csv) - class label (0 - not a match, 1 - a match)
 
-## Conclusion
+### Embeddings
+- `goods_image_vectors` and `offer_image_vectors` - contain files with image vectors (embed_deperson.npy) and their identifiers (items_deperson.npy) for assortment products and offers, respectively. Objects in files are correlated 1 to 1
+- `goods_title_vectors` and `offer_title_vectors` - contain files with vectors of titles+attributes (embed_deperson.npy) and their identifiers (items_deperson.npy) for assortment goods and offers, respectively. Objects in files are correlated 1 to 1
+
+## Work results:
 During the project the following was carried out:
 
 - The data was studied, cleaned and transformed
@@ -53,7 +57,3 @@ During the project the following was carried out:
 - Additional features were also created from the price difference between the offer and the goods.
 - Several ML models were developed and their predictions were stacked into a Bernoulli Naive Bayes meta-model to extract better probabilities. The final Meta-Model's F1 score is just slightly better than the - - - CatBoost model alone, which takes a lot less time to deploy.
 - The CatBoost model alone is the most suitable model, due to the speed and scoring.
-
-### Embeddings
-- `goods_image_vectors` and `offer_image_vectors` - contain files with image vectors (embed_deperson.npy) and their identifiers (items_deperson.npy) for assortment products and offers, respectively. Objects in files are correlated 1 to 1
-- `goods_title_vectors` and `offer_title_vectors` - contain files with vectors of titles+attributes (embed_deperson.npy) and their identifiers (items_deperson.npy) for assortment goods and offers, respectively. Objects in files are correlated 1 to 1
