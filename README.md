@@ -10,21 +10,21 @@
 The Samokat.tech machine learning team creates models for demand forecasting, assortment planning, logistics robotization, automatic generation of user content and for many other tasks.
 
 ## Formulation of the problem
-- In this competition, we invite you to solve one of the practical problems of the matching and machine learning team.
+- The solution of one of the practical problems of the matching and machine learning team is needed.
 The matching and machine learning team works with offers from marketplace sellers, assortments, and competitors’ products.
 
 - We work with images, texts, tabular data and use deep learning and computer vision models.
 
 - Here, we offer a product matching task:
-  - You have to implement the final part of the matching pipeline. In it, you must decide for each pair (product offered by the seller - product on the site) whether it is a match or not (binary classification).
+  - The goal is to implement the final part of the matching pipeline. In it, it is necessary to decide for each pair (product offered by the seller - product on the site) whether it is a match or not (binary classification).
 To do this, each pair has a set of features and sets of vectors (picture and text) that describe the products from this pair.
 
 - F-score is used as a solution quality metric.
 
 ## Dataset Description
 
-To solve the problem, we provide anonymized data on sellers’ product offers (offers) and products from the ["Megamarket"](https://megamarket.ru/) marketplace (goods).
-The data for each offer already contains the closest products from the assortment and indicates the main characteristics for this pair. It is only necessary to classify which of the pairs is a match and which is not.
+To solve the problem, anonymized data on sellers’ product offers (offers) and products from the ["Megamarket"](https://megamarket.ru/) marketplace (goods) is provided.
+The data for each offer already contains the closest products from the assortment and indicates the main characteristics for this pair. It is necessary to classify which of the pairs is a match and which is not.
 
 ### Files
 - train.csv - training dataset
