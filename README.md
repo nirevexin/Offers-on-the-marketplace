@@ -72,7 +72,6 @@ Data was provided by [Megamarket](https://megamarket.ru/) and includes:
 | ML Libraries    | CatBoost, LightGBM, Scikit-learn     |
 | Data Handling   | Pandas, NumPy                        |
 | Embedding Work  | PCA, Distance Metrics                |
-| Meta-modeling   | Bernoulli Naive Bayes                |
 | Notebooks       | Jupyter                              |
 
 ---
