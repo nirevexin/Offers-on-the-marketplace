@@ -2,7 +2,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)  
 ![ML Project](https://img.shields.io/badge/Type-Machine%20Learning-green)  
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)  
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 
 ## 📦 Project Summary  
 This project addresses a real-world problem from [Samokat.Tech](https://samokat.tech) — a tech-driven, real-time delivery platform.  
